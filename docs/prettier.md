@@ -1,5 +1,3 @@
-# prettier
-
 ## prettier とは
 
 Node.js 上で動作する、コードフォーマッターのこと。

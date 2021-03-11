@@ -1,5 +1,3 @@
-# ESLint
-
 ## ESLint とは
 
 javascript のリンター（静的開発ツール）。
