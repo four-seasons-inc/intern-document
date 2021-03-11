@@ -54,6 +54,25 @@ ESLint のルール数は、多すぎて把握しきれない（１から作り�
 ESLint の開発元や、Google などが ESLint の設定を公開してくれているので、信頼性も高い。
 
 参考ページ）
-[ESLint ことはじめ](https://qiita.com/mysticatea/items/f523dab04a25f617c87d)
-[ESLint と「eslint --init」による「.eslintrc.json」の生成](https://www.konosumi.net/entry/2019/09/01/165449)
+[ESLint ことはじめ](https://qiita.com/mysticatea/items/f523dab04a25f617c87d)  
+[ESLint と「eslint --init」による「.eslintrc.json」の生成](https://www.konosumi.net/entry/2019/09/01/165449)  
 [共有設定でらくらく ESLint](https://qiita.com/mysticatea/items/dc35ced6bd5e782f50cd)
+
+## Question
+
+プロジェクトには既に、Eslint が含まれています。
+試しに、コマンドライン上で以下のコマンドを実行してみましょう。
+
+```
+npm run lint 実行したいファイルのパス
+```
+
+warning や error が出てきたことが確認できたでしょうか？
+（ここまで完璧なコーディングをしてきた方には、何も warning や error がないかもしれません。）
+
+VScode にはわざわざコマンドを打たなくても、エラー箇所を表示してくれる機能をつけることが出来ます。
+この機能を追加すると、このようなエラー表示が出るようになります。
+
+（画像を用意）
+
+それでは、Google 検索を活用して、このエラー表示が出せる機能を VScode に追加してみましょう！

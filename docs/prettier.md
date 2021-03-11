@@ -24,7 +24,7 @@ $ npm install --save-dev prettier
 
 ```
 $ prettier -v
-X.X.X
+vX.X.X
 ```
 
 ## ESLint の fix オプションとの違い
@@ -43,6 +43,24 @@ ESLint と prettier を併用する場合、うまく設定を合わせないと
 
 詳しくは、prettier 公式を参照。
 (Integrating with Linters)[https://prettier.io/docs/en/integrating-with-linters.html]
+
+## Question
+
+プロジェクトには既に、Prettier が含まれています。
+
+試しに、コマンドライン上で以下のコマンドを実行してみましょう。
+
+```
+npm run fmt 実行したいファイルのパス
+```
+
+実行したファイルのコードが、綺麗にフォーマットされているでしょうか？
+（ここまで完璧なコーディングをしてきた方は、そのままかもしれません）
+
+ただ、毎回コマンドを実行するのは面倒ですよね。
+VScode 上にある機能を入れて、設定を変更すると、ファイルを保存するたびに、保存したファイルのフォーマットを自動で整えてくれるようになります。
+
+ここでは、ファイル保存時にコードのフォーマットが走るように設定してみましょう！
 
 参考ページ）
 (prettier ことはじめ)[https://qiita.com/shinshin86/items/c8b1f6b22b1bef3074c7#prettier%E3%81%AF%E3%81%98%E3%82%81%E3%81%BE%E3%81%97%E3%81%9F]
