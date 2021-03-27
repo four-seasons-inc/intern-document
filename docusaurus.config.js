@@ -1,7 +1,7 @@
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
-  title: "My Site",
-  tagline: "The tagline of my site",
+  title: "Intern Document",
+  tagline: "#happy hacking",
   url: "https://four-seasons-inc.github.io",
   baseUrl: "/intern-document/",
   onBrokenLinks: "throw",
@@ -11,9 +11,9 @@ module.exports = {
   projectName: "intern-document", // Usually your repo name.
   themeConfig: {
     navbar: {
-      title: "My Site",
+      title: "Intern Document",
       logo: {
-        alt: "My Site Logo",
+        alt: "Logo",
         src: "img/logo.svg",
       },
       items: [
